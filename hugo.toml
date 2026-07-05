@@ -1,0 +1,117 @@
+# Site configuration — Fei Teng academic homepage
+baseURL = "https://felixteng.github.io/"   # auto-overridden in CI to the real Pages URL
+title = "Fei Teng"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true        # URLs are /en/... and /zh/...
+enableRobotsTXT = true
+enableEmoji = true
+
+[params]
+  author = "Fei Teng"
+  # Name variants that get bold-faced in author lists (your name):
+  selfNames = ["Fei Teng", "F Teng", "Teng F", "Teng, F.", "F. Teng", "滕飞"]
+  email = "tengfei@tsinghua.edu.cn"
+  phone = "+86-10-62784805"
+  scholar = "https://scholar.google.com/citations?user=e31RArAAAAAJ&hl=en"
+  photo = "img/teng-fei.jpg"
+  # cvPdf = "cv/teng-fei-cv.pdf"  # TODO: drop a PDF in static/cv/ and uncomment
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true            # allow raw HTML in markdown
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+[languages]
+  [languages.en]
+    label = "English"
+    locale = "en"
+    weight = 1
+    title = "Fei Teng"
+    [languages.en.params]
+      role = "Professor & Deputy Director"
+      affiliation = "Institute of Energy, Environment and Economy, Tsinghua University"
+      tagline = "Climate change · Energy policy · Integrated assessment modeling"
+    [[languages.en.menus.main]]
+      name = "About"
+      pageRef = "/"
+      weight = 10
+    [[languages.en.menus.main]]
+      name = "Research"
+      pageRef = "/research"
+      weight = 20
+    [[languages.en.menus.main]]
+      name = "Publications"
+      pageRef = "/publications"
+      weight = 30
+    [[languages.en.menus.main]]
+      name = "Team"
+      pageRef = "/team"
+      weight = 40
+    [[languages.en.menus.main]]
+      name = "Teaching"
+      pageRef = "/teaching"
+      weight = 50
+    [[languages.en.menus.main]]
+      name = "Service"
+      pageRef = "/service"
+      weight = 60
+    [[languages.en.menus.main]]
+      name = "News"
+      pageRef = "/news"
+      weight = 70
+    [[languages.en.menus.main]]
+      name = "CV"
+      pageRef = "/cv"
+      weight = 80
+    [[languages.en.menus.main]]
+      name = "Contact"
+      pageRef = "/contact"
+      weight = 90
+
+  [languages.zh]
+    label = "中文"
+    locale = "zh-CN"
+    weight = 2
+    title = "滕飞"
+    [languages.zh.params]
+      role = "教授、副所长"
+      affiliation = "清华大学能源环境经济研究所"
+      tagline = "气候变化 · 能源政策 · 综合评估模型"
+    [[languages.zh.menus.main]]
+      name = "关于"
+      pageRef = "/"
+      weight = 10
+    [[languages.zh.menus.main]]
+      name = "研究方向"
+      pageRef = "/research"
+      weight = 20
+    [[languages.zh.menus.main]]
+      name = "论文成果"
+      pageRef = "/publications"
+      weight = 30
+    [[languages.zh.menus.main]]
+      name = "研究团队"
+      pageRef = "/team"
+      weight = 40
+    [[languages.zh.menus.main]]
+      name = "教学"
+      pageRef = "/teaching"
+      weight = 50
+    [[languages.zh.menus.main]]
+      name = "学术服务"
+      pageRef = "/service"
+      weight = 60
+    [[languages.zh.menus.main]]
+      name = "动态"
+      pageRef = "/news"
+      weight = 70
+    [[languages.zh.menus.main]]
+      name = "简历"
+      pageRef = "/cv"
+      weight = 80
+    [[languages.zh.menus.main]]
+      name = "联系"
+      pageRef = "/contact"
+      weight = 90

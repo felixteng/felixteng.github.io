@@ -1,0 +1,90 @@
+# Team members — single source of truth (current members + alumni).
+# status: current | alumni
+# level:  PostDoc | RA | PhD | Master | Visiting     (RA = research assistant)
+# photo (optional): put image in static/img/students/ and reference as "img/students/xxx.jpg"
+# publications (optional): list of citation strings; basic HTML (e.g. <em>, <a>) is allowed.
+#
+# >>> The entries below are PLACEHOLDERS — replace with your real members. <<<
+
+# ---------------- Postdoctoral researchers ----------------
+- name_en: "Postdoc One"
+  name_zh: "博士后一"
+  status: current
+  level: PostDoc
+  start_year: 2024
+  research_en: "Integrated assessment modeling of net-zero pathways"
+  research_zh: "净零路径的综合评估模型"
+  photo: ""
+  links: { homepage: "", email: "", scholar: "" }
+  publications:
+    - "Author A, <strong>Postdoc One</strong>, F Teng. Paper title. <em>Journal</em>, 2024."
+
+# ---------------- Research assistants ----------------
+- name_en: "Research Assistant One"
+  name_zh: "研究助理一"
+  status: current
+  level: RA
+  start_year: 2025
+  research_en: "Energy system data and methane inventories"
+  research_zh: "能源系统数据与甲烷清单"
+  photo: ""
+  links: { email: "" }
+
+# ---------------- Ph.D. students ----------------
+- name_en: "PhD Student One"
+  name_zh: "博士生一"
+  status: current
+  level: PhD
+  start_year: 2023
+  research_en: "Carbon-neutral transition pathways and macroeconomic impacts"
+  research_zh: "碳中和转型路径与宏观经济影响"
+  photo: ""
+  links: { email: "", scholar: "" }
+  publications:
+    - "<strong>PhD Student One</strong>, F Teng. Working title under review, 2025."
+
+- name_en: "PhD Student Two"
+  name_zh: "博士生二"
+  status: current
+  level: PhD
+  start_year: 2024
+  research_en: "Methane mitigation and the coal transition"
+  research_zh: "甲烷减排与煤炭转型"
+  photo: ""
+  links: { email: "" }
+
+# ---------------- Master's students ----------------
+- name_en: "Master Student One"
+  name_zh: "硕士生一"
+  status: current
+  level: Master
+  start_year: 2025
+  research_en: "Climate policy and governance"
+  research_zh: "气候政策与治理"
+  photo: ""
+
+# ---------------- Alumni ----------------
+- name_en: "Alumnus One"
+  name_zh: "毕业生一"
+  status: alumni
+  level: PhD
+  grad_year: 2022
+  thesis_en: "Essays on equity and efficiency in global carbon budget allocation"
+  thesis_zh: "全球碳预算分配中的公平与效率研究"
+  position_en: "Assistant Professor, Example University"
+  position_zh: "示例大学 助理教授"
+  publications:
+    - "<strong>Alumnus One</strong>, F Teng. Representative paper. <em>Journal</em>, 2021."
+    - "<strong>Alumnus One</strong>, et al. Another paper. <em>Journal</em>, 2020."
+
+- name_en: "Alumnus Two"
+  name_zh: "毕业生二"
+  status: alumni
+  level: Master
+  grad_year: 2020
+  thesis_en: "Co-benefits of air-quality and climate policy in China"
+  thesis_zh: "中国大气质量与气候政策的协同效益"
+  position_en: "Analyst, Example Institute"
+  position_zh: "示例研究院 研究员"
+  publications:
+    - "<strong>Alumnus Two</strong>, F Teng. Master-thesis paper. <em>Journal</em>, 2019."

@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
+    <nav class="main-nav">
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} class="active"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+    </nav>
+    <div class="lang-switch">
+      {{ range .Translations }}
+        <a href="{{ .RelPermalink }}" onclick="try{localStorage.setItem('preferred_lang','{{ .Language.Lang }}')}catch(e){}">{{ .Language.Label }}</a>
+      {{ else }}
+        {{/* No translation of this exact page — fall back to the other language's home */}}
+        {{ range .Site.Languages }}{{ if ne .Lang $.Site.Language.Lang }}
+          <a href="{{ (printf "/%s/" .Lang) | relURL }}" onclick="try{localStorage.setItem('preferred_lang','{{ .Lang }}')}catch(e){}">{{ .Label }}</a>
+        {{ end }}{{ end }}
+      {{ end }}
+    </div>
+  </div>
+</header>

@@ -1,0 +1,8 @@
+# Corresponding-author papers.
+# List ONE paper per line — paste the title, or any distinctive part of it.
+# Matching ignores case/punctuation. After editing, re-run:  python3 import/build_pubs.py
+# Each matched paper gets  corresponding: true  (shown with a ✉ next to your name).
+#
+# Examples (delete and replace with your real list):
+# Large methane mitigation potential through prioritized closure of gas-rich coal mines
+# Damage function uncertainty increases the social cost of methane and nitrous oxide

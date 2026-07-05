@@ -1,0 +1,137 @@
+2026 ||| IMACLIM-China-MORE: A hybrid model for analyzing greenhouse gases neutrality pathways ||| B Wang, Z Wu, X Su, F Teng ||| Energy and Climate Management 2 (2), 9400032
+2026 ||| Greater temperature overshoot amplifies asymmetric post-net-zero obligations across countries ||| F Teng, T Wang, H Winkler |||
+2026 ||| Net-zero compatible development pathways in Argentina, Brazil, China, India, Indonesia, Mexico and South Africa: lessons for short-term actions ||| Y Briand, J Svensson, C Lepin, H Waisman, C Bataille, L Anggraeni, ... ||| Climate Policy, 1-17
+2026 ||| Building a mine-level database of methane emission factors for China's underground coal ||| Z Wu, Y Wang, F Teng ||| Environmental Research Letters 21 (2), 024003
+2025 ||| Quantifying national responsibilities for climate change impacts ||| F Teng, T Wang, X Pan, YR du Pont, X Zhang |||
+2025 ||| How to consider feasibility aspects of transformation pathways for the industry sector-implications for energy systems modelling ||| R König, T Pregger, S Kronshage, P Jochem, B McCall, G Holtz, ... ||| Energy Strategy Reviews 62, 101901
+2025 ||| China's energy sector facility-level inventory reveals methane emissions peaked in 2014 and emerging sources from abandoned facilities ||| Q Liu, F Teng ||| One Earth 8 (8)
+2025 ||| Attribution and assessment of direct and indirect economic losses from extreme weather events in China ||| W Bo-Wen, HE Yi, T Fei ||| Advances in Climate Change Research 21 (4), 502
+2025 ||| Quantifying indirect economic losses from extreme events to inform global and local adaptation strategies ||| BW Wang, Y He, WH Wu, F Teng ||| Advances in Climate Change Research
+2025 ||| Economic impacts of sea level rise on China's coastal provinces under different adaptation strategies ||| TP Wang, F Teng, WT Li ||| Advances in Climate Change Research
+2025 ||| China's greenhouse gas budget during 2000–2023 ||| W Yuan, M Liang, Y Gao, L Huang, L Dan, H Duan, S Hong, F Jiang, W Ju, ... ||| National Science Review 12 (4), nwaf069
+2025 ||| High-resolution mapping of CH4/N2O emissions from industrialization-related anthropogenic sources in China ||| Z Lou, H Zhang, X Zhao, Q Liu, M Liang, H Wang, H Yang, B Cai, J Lu, ... ||| National Science Review 12 (4), nwae481
+2025 ||| A comparative review of methane policies of the United States and China in the context of US–China climate cooperation ||| M Zhu, SJ Smith, M Chen, M Evans, Q Chai, F Teng, P Wang, X Cheng, ... ||| Climate Policy 25 (2), 171-189
+2025 ||| Coupling natural-social models can better quantify the interactions in achieving carbon neutrality in China ||| T Wang, Y Lu, F Teng, X Zhang, X Zhang, M Wei, T Wu, D Wang, J Sun, ... ||| Environmental Research Letters 20 (2), 024026
+2025 ||| Co-deploying biochar and bioenergy with carbon capture and storage improves cost-effectiveness and sustainability of China's carbon neutrality ||| X Deng, F Teng, X Zhang, JL Fan, N Forsell, DM Reiner ||| One Earth 8 (1)
+2024 ||| Country report ||| T Fei |||
+2024 ||| Large methane mitigation potential through prioritized closure of gas-rich coal mines ||| Q Liu, F Teng, CP Nielsen, Y Zhang, L Wu ||| Nature Climate Change 14 (6), 652-658
+2024 ||| Exploring negative emission potential of biochar to achieve carbon neutrality goal in China ||| X Deng, F Teng, M Chen, Z Du, B Wang, R Li, P Wang ||| Nature Communications 15 (1), 1085
+2023 ||| Impact of Material Efficiency Strategies on Demand for Basic Industrial Goods and Carbon Neutral Pathways of China ||| F Teng, R Pan, B Wang, L Zhang ||| 2023 IEEE 7th Conference on Energy Internet and Energy System Integration
+2023 ||| Impact of Climate Change on China's Future Electricity Demand and Supply ||| F Teng, X Su, Z Wang, L Zhang ||| 2023 IEEE 7th Conference on Energy Internet and Energy System Integration
+2023 ||| revision of the social costs of methane and nitrous oxide ||| T Wang, F Teng ||| Nature Climate Change 13, 1170-1171
+2023 ||| Damage function uncertainty increases the social cost of methane and nitrous oxide ||| T Wang, F Teng ||| Nature Climate Change 13 (11), 1258-1265
+2023 ||| The characteristics and driving factors of household CO2 and non-CO2 emissions in China ||| J Xie, S Zhou, F Teng, A Gu ||| Ecological Economics 213, 107952
+2023 ||| An evaluation of the priority mitigation technology needs of Belt and Road Initiative developing countries ||| Q Liu, X Deng, B Wang, F Teng ||| Ecosystem Health and Sustainability 9, 0026
+2023 ||| Understanding equity–efficiency interaction in the distribution of global carbon budgets ||| XZ Pan, F Teng, YR Du Pont, HL Wang ||| Advances in Climate Change Research 14 (1), 13-22
+2023 ||| Twinning Digital Transformation and Green Transformation toward Sustainable Development in Asia and the Pacific ||| J Jupesta, K Akimoto, K Halsnaes, F Denton, F Teng, F Creutzig, ... ||| Digital Transformation for Inclusive and Sustainable Development in Asia 77
+2023 ||| Climate technology demand assessment for participating countries in Belt and Road Initiative and policy recommendations for promoting South-South technology cooperation ||| M CHEN, Q LIU, M GAO, F TENG ||| Bulletin of Chinese Academy of Sciences (Chinese Version) 38 (9), 1387-1397
+2023 ||| Technology Needs Assessment for adaptation to climate change in the Belt and Road countries ||| GAO Mei-Xun, C Min-Peng, T Fei ||| Advances in Climate Change Research 18 (6), 731
+2022 ||| Opportunities and Challenges for China to Lead Global Climate Governance Against the Backdrop of De-globalization ||| F Teng ||| Annual Report on Actions to Address Climate Change (2018), 53-65
+2022 ||| Ambitious and credible pledges ||| F Teng ||| Nature Climate Change 12 (9), 779-780
+2022 ||| Climate module disparities explain inconsistent estimates of the social cost of carbon in integrated assessment models ||| T Wang, F Teng, X Deng, J Xie ||| One Earth 5 (7), 767-778
+2022 ||| A multi-model assessment of climate change damage in China and the world ||| W Tian-Peng, T Fei ||| Advances in Climate Change Research 13 (3), 385-396
+2022 ||| Accelerating the transition in the context of sustainable development ||| F Denton, K Halsnaes, K Akimoto, S Burch, CD Morejon, F Farias, ... ||| Climate change 2022: Mitigation of climate change, the working group III
+2022 ||| The economic impact of a deep decarbonisation pathway for China: a hybrid model analysis through bottom-up and top-down linking ||| X Su, F Ghersi, F Teng, G Le Treut, M Liang ||| Mitigation and Adaptation Strategies for Global Change 27 (1), 11
+2022 ||| Towards carbon neutrality: a study on China's long-term low-carbon transition pathways and strategies ||| J He, Z Li, X Zhang, H Wang, W Dong, E Du, S Chang, X Ou, S Guo, ... ||| Environmental Science and Ecotechnology 9, 100134
+2021 ||| National climate institutions complement targets and policies ||| NK Dubash, AV Pillai, C Flachsland, K Harrison, K Hochstetler, M Lockwood, R MacNeil, M Mildenberger, M Paterson, F Teng, E Tyler ||| Science 374 (6568), 690-693
+2021 ||| The evolution of climate governance in China: drivers, features, and effectiveness ||| F Teng, P Wang ||| Environmental Politics 30 (sup1), 141-161
+2021 ||| When carbon emission trading meets a regulated industry: Evidence from the electricity sector of China ||| J Cao, MS Ho, R Ma, F Teng ||| Journal of Public Economics 200, 104470
+2021 ||| An empirical analysis of the environmental performance of China's overseas coal plants ||| CH Springer, S Evans, F Teng ||| Environmental Research Letters 16 (5), 054062
+2021 ||| A new perspective on decarbonising the global energy system ||| M Ives, L Righetti, J Schiele, K De Meyer, L Hubble-Rose, F Teng, ... ||| Oxford University Smith School of Enterprise and the Environment
+2021 ||| The environmental co-benefit and economic impact of China's low-carbon pathways: Evidence from linking bottom-up and top-down models ||| X Yang, J Pang, F Teng, R Gong, C Springer ||| Renewable and Sustainable Energy Reviews 136, 110438
+2021 ||| What is carbon neutrality? ||| X Deng, J Xie, F Teng ||| Advances in Climate Change Research 17 (1), 107
+2021 ||| Wie die Governance der deutschen Klimapolitik gestärkt werden kann. Ariadne-Kurzdossier. ||| C Flachsland, T Müller, J Kemmerzell, D Edmondson, B Görlach, ... ||| Kopernikus-Projekt Ariadne. Potsdam-Institut für Klimafolgenforschung
+2021 ||| Evolution of climate diplomacy in China ||| F Teng ||| Towards a Deep Climate Collaboration, 23
+2021 ||| Greenhouse gas (GHG) emission mitigation and ecosystem adaptation along Belt and Road Initiative ||| L Zhang, M Chen, F Teng, J Ewing ||| Ecosystem Health and Sustainability 7 (1), 1868272
+2020 ||| Climate technology transfer in BRI era: needs, priorities, and barriers from receivers' perspective ||| M Chen, L Zhang, F Teng, J Dai, Z Li, Z Wang, Y Li ||| Ecosystem Health and Sustainability 6 (1), 1780948
+2020 ||| A global analysis of CO2 and non-CO2 GHG emissions embodied in trade with Belt and Road Initiative countries ||| J Hou, X Deng, CH Springer, F Teng ||| Ecosystem Health and Sustainability 6 (1), 1761888
+2020 ||| Comprehensive report on China's long-term low-carbon development strategies and pathways ||| J He, Z Li, X Zhang, H Wang, W Dong, S Chang, X Ou, S Guo, Z Tian, ... ||| Chinese Journal of Population, Resources and Environment 18 (4), 263-295
+2020 ||| Assessing global and national economic losses from climate change: a study based on CGEM-IAM in China ||| T Wang, F Teng, X Zhang ||| Climate Change Economics 11 (03), 2041003
+2020 ||| Review of economic impacts from climate change under the framework of computable general equilibrium models ||| W Tian-Peng, T Fei ||| Advances in Climate Change Research 16 (4), 480
+2020 ||| The structural changes and determinants of household energy choices and energy consumption in urban China: Addressing the role of building type ||| J Zhang, F Teng, S Zhou ||| Energy Policy 139, 111314
+2020 ||| Environmental Performance of China's Overseas Coal Plants ||| C Springer, S Evans, F TENG |||
+2019 ||| China's Non-CO2 Greenhouse Gas Emissions: Future Trajectories and Mitigation Options and Potential ||| J Lin, N Khanna, X Liu, F Teng, X Wang ||| Scientific Reports 9 (1), 16095
+2019 ||| Can China Peak Its Non-CO2 GHG Emissions before 2030 by Implementing Its Nationally Determined Contribution? ||| F Teng, X Su, X Wang ||| Environmental science & technology 53 (21), 12168-12176
+2019 ||| A structural decomposition analysis of China's consumption-based greenhouse gas emissions ||| H Gao, A Gu, G Wang, F Teng ||| Energies 12 (15), 2843
+2019 ||| A pathway design framework for national low greenhouse gas emission development strategies ||| H Waisman, C Bataille, H Winkler, F Jotzo, P Shukla, M Colombier, ... ||| Nature Climate Change 9 (4), 261-268
+2019 ||| A biased fairness assessment against developing countries ||| F Teng, J He, W Dong, X Pan ||| Science Bulletin 64 (6), 367-369
+2018 ||| Cost–benefit analysis of China's Intended Nationally Determined Contributions based on carbon marginal cost curves ||| X Yang, F Teng, X Xi, E Khayrullin, Q Zhang ||| Applied Energy 227, 415-425
+2018 ||| Challenges to addressing non-CO2 greenhouse gases in China's long-term climate strategy ||| X Wang, F Teng, J Zhang, N Khanna, J Lin ||| Climate Policy 18 (8), 1059-1065
+2018 ||| Mitigating Sulfur Hexafluoride (SF6) Emission from Electrical Equipment in China ||| S Zhou, F Teng, Q Tong ||| Sustainability 10 (7), 2402
+2018 ||| Cascading biases against poorer countries ||| S Kartha, T Athanasiou, S Caney, E Cripps, K Dooley, NK Dubash, T Fei, ... ||| Nature Climate Change 8 (5), 348-349
+2018 ||| China's emissions trading takes steps towards big ambitions ||| F Jotzo, V Karplus, M Grubb, A Löschel, K Neuhoff, L Wu, F Teng ||| Nature Climate Change 8 (4), 265-267
+2018 ||| The 1.5 C target and coal sector transition: at the limits of societal feasibility ||| T Spencer, M Colombier, O Sartor, A Garg, V Tiwari, J Burton, T Caetano, ... ||| Climate Policy 18 (3), 335-351
+2018 ||| Multi-model comparison of CO2 emissions peaking in China: lessons from CEMF01 study ||| O Lugovoy, XZ Feng, J Gao, JF Li, Q Liu, F Teng, LL Zou ||| Advances in Climate Change Research 9 (1), 1-15
+2018 ||| Effects of pollution control measures on carbon emission reduction in China: evidence from the 11th and 12th Five-Year Plans ||| A Gu, F Teng, X Feng ||| Climate Policy 18 (2), 198-209
+2018 ||| Carbon leakage scrutiny in ETS and non-ETS industrial sectors in China ||| X Wang, F Teng, G Wang, S Zhou, B Cai ||| Resources, conservation and recycling 129, 424-431
+2018 ||| The air quality co-benefit of coal control strategy in China ||| X Yang, F Teng ||| Resources, Conservation and Recycling 129, 373-382
+2018 ||| Air quality benefit of China's mitigation target to peak its emission by 2030 ||| X Yang, F Teng ||| Climate Policy 18 (1), 99-110
+2018 ||| Coal transition in ||| T Fei |||
+2017 ||| Exploring fair and ambitious mitigation contributions under the Paris Agreement goals ||| X Pan, M den Elzen, N Höhne, F Teng, L Wang ||| Environmental Science & Policy 74, 49-56
+2017 ||| Assessment of China's Mitigation Targets in an Effort-Sharing Framework ||| X Pan, F Teng ||| Sustainability 9 (7), 1104
+2017 ||| The Global Impact of International Trade on Embodied Carbon Emission: Evidence from An Input-Output Analysis ||| M Liang, F Teng, X Wang ||| Meeting the Energy Demands of Emerging Economies, 40th IAEE International
+2017 ||| Interactions Between Market Reform and a Carbon Price in China's Power Sector ||| F Teng, F Jotzo, X Wang ||| Meeting the Energy Demands of Emerging Economies, 40th IAEE International
+2017 ||| Interaction Between Electricity Market Reform and Carbon Pricing: Insights from a Strengthened Scrutiny for Carbon Leakage in China ||| X Wang, M Liang, F Qian, F Teng ||| Meeting the Energy Demands of Emerging Economies, 40th IAEE International
+2017 ||| Identifying the industrial sectors at risk of carbon leakage in China ||| X Wang, F Teng, S Zhou, B Cai ||| Climate Policy 17 (4), 443-457
+2017 ||| Mapping Linkages Between the Transparency Framework and Other Paris Agreement Provisions ||| Y Dagnet, C Elliott, M Krnjaic, MT Rocha, T Fei ||| World Resources Institute
+2017 ||| Mapping the linkages between the transparency framework and other provisions of the Paris agreement ||| Y Dagnet, MT Rocha, T Fei, C Elliott, M Krnjaic ||| Project for Advancing Climate Action Transparency (PACT)
+2017 ||| Assessing the role of electricity storage in China's high renewable energy penetration future ||| X Wang, F Teng, X Yang, R Wei ||| Energy Procedia 105, 4084-4089
+2017 ||| System Optimization and Co-benefit Analysis of China's Deep De-carbonization Effort towards its INDC Target ||| X Yang, F Teng, X Wang, Q Zhang ||| Energy Procedia 105, 3314-3319
+2017 ||| Peaking China's CO2 Emissions: Trends to 2030 and Mitigation Potential ||| Q Liu, A Gu, F Teng, R Song, Y Chen ||| Energies 10 (2), 209
+2017 ||| Pathway and policy analysis to China's deep decarbonization ||| Q Liu, Y Chen, F Teng, C Tian, X Zheng, X Zhao ||| Chinese Journal of Population Resources and Environment 15 (1), 39-49
+2017 ||| Inside NDCs: national strategies in the light of the Paris Agreement-Insights from 7 countries and regions ||| E Lebre La Rovere, W Wills, C Grottera, C Gesteira, F Teng, X Wang, ... ||| Institut du developpement durable et des relations internationales-IDDRI
+2017 ||| Chinesische Ansätze zur Entwicklung der Weltwirtschaft ||| Y He, J Wu, H Jiankun, W Tao, T Fei, L Dongmin, T Huifang, F Chengyu, ... ||| Verlag für fremdsprachige Literatur
+2017 ||| Interactions between market reform and a carbon price in China's power sector ||| F Teng, F Jotoz, X Wang ||| Economics of Energy & Environmental Policy 6 (2), 39-53
+2016 ||| Coupling Earth System Model and integrated assessment model ||| D Wenjie, Y Wenping, T Fei, H Zhixin, Z Jingyun, W Zhigang, C Jieming, ... ||| Advances in Earth Science 31 (12), 1215-1219
+2016 ||| Exploring the nexus between water saving and energy conservation: Insights from industry sector during the 12th Five-Year Plan period in China ||| A Gu, F Teng, Z Lv ||| Renewable and Sustainable Energy Reviews 59, 28-38
+2015 ||| 2℃ 温升目标下中国排放配额分析 ||| 潘勋章， 滕飞 ||| 气候变化研究进展 11 (6), 429
+2015 ||| Beyond the numbers: understanding the transformation induced by INDCs ||| T Spencer, R Pierfederici, H Waisman, M Colombier, C Bertram, ... ||| Modelling and Informing Low Emission Strategies-MILES Project Consortium
+2015 ||| Countries' emission allowances towards the low-carbon world: A consistent study ||| X Pan, F Teng, Y Tian, G Wang ||| Applied Energy 155, 218-228
+2015 ||| Resolve ambiguities in China's emissions ||| F Teng ||| Nature 525 (7570), 455-455
+2015 ||| Towards a new climate economics: Research areas and prospects ||| J He, F Teng, Y Qi ||| Chinese Journal of Population Resources and Environment 13 (1), 1-9
+2015 ||| Regional low-emission pathways from global models ||| H Van Soest, LA Reis, D van Vuuren, C Bertram, L Drouet, J Jewell, ... ||| Nota di Lavoro
+2014 ||| Introducing the emissions trading system to China's electricity sector: Challenges and opportunities ||| F Teng, X Wang, LV Zhiqiang ||| Energy Policy 75, 39-45
+2014 ||| National and sub-national policies and institutions ||| E Somanathan, T Sterner, T Sugiyama, D Chimanikire, NK Dubash, ... ||| Climate Change 2014: Mitigation of Climate Change. IPCC Working Group III
+2014 ||| Equitable access to sustainable development: based on the comparative study of carbon emission rights allocation schemes ||| X Pan, F Teng, Y Ha, G Wang ||| Applied Energy 130, 632-640
+2014 ||| The Latest Progress in Socioeconomic Assessment of the Mitigation of Climate Change—Review of the IPCC Fifth Assessment WGIII Report ||| Z Ji, T Fei, F Sha ||| Advances in Climate Change Research 10 (5), 313
+2014 ||| China energy-water nexus: Assessing the water-saving synergy effects of energy-saving policies during the eleventh Five-year Plan ||| A Gu, F Teng, Y Wang ||| Energy conversion and management 85, 630-637
+2014 ||| Reaping the economic benefits of decarbonization for China ||| F Teng, F Jotzo ||| China & World Economy 22 (5), 37-54
+2014 ||| A comparison of carbon allocation schemes: On the equity-efficiency tradeoff ||| X Pan, F Teng, G Wang ||| Energy 74, 222-229
+2014 ||| 9. China's Climate and Energy Policy ||| F Jotzo, F Teng ||| DEEPENING REFORM, 207
+2014 ||| Inequality decomposition in the distribution of carbon emission across country groups: historical trends and future implication ||| F Teng, S Song, C Zhang ||| Energy Procedia
+2014 ||| Improving transparency and accountability in the post-2020 climate regime: A fair way forward ||| Y Dagnet, T Fei, C Elliott, YIN Qiu ||| ACT 2015 Working Papers
+2014 ||| The role of China in 2 degree world: the needs for change in energy system planning ||| X Yang, F Teng, G Wang ||| Energy Procedia
+2014 ||| Energy transition within a carbon constrained world: How allocation schemes influence the development of energy system in the future ||| X Pan, F Teng, X Wanga, G Wang ||| Energy Procedia
+2014 ||| Sharing emission space at an equitable basis: allocation scheme based on the equal cumulative emission per capita principle ||| X Pan, F Teng, G Wang ||| Applied Energy
+2014 ||| Understanding marginal abatement cost curves in energy-intensive industries in China: insights from comparison of different models ||| F Teng, X Wang, X Pan, X Yang ||| Energy Procedia
+2013 ||| Midway toward the 2 degree target: Adequacy and fairness of the Cancún pledges ||| Y Ha, F Teng ||| Applied energy
+2013 ||| Incorporating environmental co-benefits into climate policies: a regional study of the cement industry in China ||| X Yang, F Teng, G Wang ||| Applied energy
+2013 ||| Quantifying co-benefit potentials in the Chinese cement sector during 12th Five Year Plan: an analysis based on marginal abatement cost with monetized environmental effect ||| Y Xi, T Fei, W Gehua ||| Journal of Cleaner Production
+2013 ||| Estimation of urban residential electricity demand in China using household survey data ||| S Zhou, F Teng ||| Energy policy
+2013 ||| A comprehensive review of co-benefit of GHG mitigation ||| X Yang, F Teng, GH Wang ||| Ecol. Econ
+2012 ||| Definition of business as usual and its impacts on assessment of mitigation efforts ||| T Fei, X Shuang-Qing ||| Advances in Climate Change Research
+2012 ||| Experiences of Measurement, Reporting and Verification Towards 20% Reduction Target in China ||| G Alun, T Fei, W Yu ||| Chinese Journal of Population Resources and Environment
+2012 ||| Developed and developing world responsibilities for historical climate change and CO2 mitigation ||| T Wei, S Yang, JC Moore, P Shi, X Cui, Q Duan, B Xu, Y Dai, W Yuan ||| Proceedings of the National Academy of Sciences
+2012 ||| Influences of Border Carbon Adjustments on China's Foreign Trade ||| Z Lingling, G Alun, T Fei, H Jiankun ||| Chinese Journal of Population Resources and Environment
+2012 ||| Challenges for climate policy and governance in key emerging countries–China: Improving the local-central climate governance nexus ||| F Teng ||| Working Papers
+2011 ||| Sector mitigation policies and methods in China: measurable, reportable, and verifiable mechanisms ||| A Gu, F Teng, Y Wang ||| Advances in Climate Change Research
+2011 ||| Metric of carbon equity: carbon Gini index based on historical cumulative emission per capita ||| F Teng, J He, X Pan, C Zhang ||| Advances in climate change research
+2011 ||| EU-GeoCapacity in China—Towards CCS demonstration projects in Hebei Province ||| YM Le Nindre, D Allier, W Chen, F Teng, R Xu, R Zeng, M Li ||| Energy Procedia
+2010 ||| Sector mitigation policies and measures in China: measurement, report and verification mechanisms ||| GU A-Lun, T Fei, W Yu ||| Advances in Climate Change Research
+2010 ||| Clean development mechanism practice in China: Current status and possibilities for future regime ||| F Teng, X Zhang ||| Energy
+2010 ||| CCS scenarios optimization by spatial multi-criteria analysis: Application to multiple source sink matching in Hebei province ||| W Chen, YM Le Nindre, R Xu, D Allier, F Teng, K Domptail, X Xiang ||| International Journal of Greenhouse Gas Control
+2009 ||| Long-term climate change mitigation target and carbon permit allocation ||| H Jiankun, C Wenying, T Fei, L Bin ||| Advances in Climate Change Research
+2009 ||| Mitigation actions in China: Measurement, reporting and verification ||| F Teng, Y Wang, A Gu, R Xu, H McMahon, D Seligsohn ||| World Resources Institute Working Paper
+2009 ||| CCS scenarios optimisation by spatial multi-criteria analysis: application to multiple source-sink matching in the Bohai Basin (North China) ||| W Chen, F Teng, R Xu, X Xiang, R Zeng, K Domptail, D Allier ||| Energy Procedia
+2009 ||| Mitigation Actions in China ||| H McMahon, D Seligsohn, F Teng, Y Wang, A Gu, R Xu ||| (Venue not specified)
+2009 ||| Possible development of a technology clean development mechanism in a post-2012 regime ||| F Teng, W Chen, J He ||| Post-Kyoto International Climate Policy
+2009 ||| Addressing Global Climate Change Under Guidance of Principle of Equity ||| J HE, F TENG, B LIU ||| Journal of Tsinghua University (Philosophy and Social Sciences)
+2008 ||| Possible development of a technology clean development mechanism in a post-2012 regime ||| F Teng, W Chen, J He ||| Harvard Project on International Climate Agreements
+2008 ||| A Measurable, Reportable, and Verifiable Post 2012 Climate Framework ||| F Teng, W Chen ||| Harvard Project on International Climate Agreements
+2008 ||| Carbon capture and storage for greenhouse effect mitigation ||| D Tondeur, F Teng ||| Future Energy
+2007 ||| Energy Models in China A Literature Survey ||| F Teng, A Gu, M Duan ||| Global Climate Change Institute, Tsinghua University
+2007 ||| Climate change: national and local policy opportunities in China ||| F Teng, A Gu ||| Environmental Sciences
+2007 ||| Efficiency of Carbon storage with leakage: Physical and economical approaches ||| F Teng, D Tondeur ||| Energy
+2006 ||| COMPARING PAY-AS-BID AND SYSTEM MARGIONAL PRICING AUCTION IN AN OLIGAPOLY ELECTRICITY MARKET ||| T Fei ||| Securing Energy in Insecure Times
+2005 ||| International cooperation mechanisms for carbon reduction ||| W Chen, F Teng ||| JOURNAL-TSINGHUA UNIVERSITY
+2003 ||| Economies ||| T Fei ||| Electric Power

@@ -1,0 +1,25 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+{{ $students := hugo.Data.students }}
+{{ $lang := site.Language.Lang }}
+{{ $current := where $students "status" "current" }}
+{{ $alumni := where $students "status" "alumni" }}
+
+{{ with $current }}
+<h2>{{ i18n "current_members" }}</h2>
+{{ range $level := slice "PostDoc" "RA" "PhD" "Master" "Visiting" }}
+  {{ $group := where $current "level" $level }}
+  {{ with $group }}
+  <h3 class="level-head">{{ i18n (printf "level_%s" ($level | lower)) }}</h3>
+  {{ range . }}{{ partial "member.html" (dict "s" . "lang" $lang) }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ end }}
+
+{{ with $alumni }}
+<h2>{{ i18n "alumni" }}</h2>
+{{ range sort . "grad_year" "desc" }}{{ partial "member.html" (dict "s" . "lang" $lang) }}{{ end }}
+{{ end }}
+{{ end }}

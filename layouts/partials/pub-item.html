@@ -1,0 +1,20 @@
+{{ $pub := .pub }}
+{{ $self := site.Params.selfNames }}
+<li class="pub-item" data-type="{{ $pub.type }}">
+  <div class="pub-title">{{ with $pub.doi }}<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">{{ $pub.title }}</a>{{ else }}{{ $pub.title }}{{ end }}</div>
+  <div class="pub-authors">{{ range $i, $a := $pub.authors }}{{ if $i }}, {{ end }}{{ if in $self $a }}<strong>{{ $a }}</strong>{{ if $pub.corresponding }}<sup class="corr" title="{{ i18n "corresponding_author" }}">✉</sup>{{ end }}{{ else }}{{ $a }}{{ end }}{{ end }}</div>
+  <div class="pub-meta">
+    {{ with $pub.venue }}<em>{{ . }}</em>{{ end }}{{ with $pub.year }} · {{ . }}{{ end }}
+    {{ with $pub.type }}<span class="badge badge-{{ . }}">{{ i18n (printf "type_%s" .) }}</span>{{ end }}
+  </div>
+  {{ if or $pub.doi $pub.links }}
+  <div class="pub-links">
+    {{ with $pub.doi }}<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">doi.org/{{ . }}</a>{{ end }}
+    {{ with $pub.links }}
+      {{ with .pdf }}<a href="{{ . }}" target="_blank" rel="noopener">PDF</a>{{ end }}
+      {{ with .code }}<a href="{{ . }}" target="_blank" rel="noopener">Code</a>{{ end }}
+      {{ with .scholar }}<a href="{{ . }}" target="_blank" rel="noopener">Scholar</a>{{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+</li>

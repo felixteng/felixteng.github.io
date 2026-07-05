@@ -1,0 +1,16 @@
+{{ $s := .s }}{{ $lang := .lang }}
+{{ $name := cond (eq $lang "zh") ($s.name_zh | default $s.name_en) ($s.name_en | default $s.name_zh) }}
+{{ $research := cond (eq $lang "zh") $s.research_zh $s.research_en }}
+<div class="student-card">
+  {{ with $s.photo }}<img src="{{ . | relURL }}" alt="{{ $name }}" class="student-photo">{{ else }}<div class="student-photo placeholder">{{ substr $name 0 1 }}</div>{{ end }}
+  <div class="student-name">{{ $name }}</div>
+  {{ with $s.start_year }}<div class="student-year">{{ i18n "since" }} {{ . }}</div>{{ end }}
+  {{ with $research }}<div class="student-research">{{ . }}</div>{{ end }}
+  {{ with $s.links }}
+  <div class="student-links">
+    {{ with .homepage }}<a href="{{ . }}" target="_blank" rel="noopener">{{ i18n "homepage" }}</a>{{ end }}
+    {{ with .email }}<a href="mailto:{{ . }}">{{ i18n "email_label" }}</a>{{ end }}
+    {{ with .scholar }}<a href="{{ . }}" target="_blank" rel="noopener">Scholar</a>{{ end }}
+  </div>
+  {{ end }}
+</div>

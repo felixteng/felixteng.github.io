@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ .Site.Title }} · {{ .Site.Params.role }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.author }} — {{ .Site.Params.tagline }}{{ end }}">
+{{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ range .AllTranslations }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{ end }}
+{{/* First-visit language auto-detection (honours later manual choice via localStorage) */}}
+<script>
+(function () {
+  try {
+    var stored = localStorage.getItem('preferred_lang');
+    var current = "{{ .Site.Language.Lang }}";
+    var urls = {};
+    {{ range .AllTranslations }}urls["{{ .Language.Lang }}"] = "{{ .RelPermalink }}";
+    {{ end }}urls[current] = "{{ .RelPermalink }}";
+    if (!stored) {
+      var nav = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+      var want = nav.indexOf('zh') === 0 ? 'zh' : 'en';
+      if (want !== current && urls[want]) {
+        localStorage.setItem('preferred_lang', want);
+        window.location.replace(urls[want]);
+      }
+    }
+  } catch (e) {}
+})();
+</script>

@@ -1,0 +1,27 @@
+{{ $s := .s }}{{ $lang := .lang }}
+{{ $name := cond (eq $lang "zh") ($s.name_zh | default $s.name_en) ($s.name_en | default $s.name_zh) }}
+{{ $research := cond (eq $lang "zh") $s.research_zh $s.research_en }}
+{{ $thesis := cond (eq $lang "zh") $s.thesis_zh $s.thesis_en }}
+{{ $position := cond (eq $lang "zh") $s.position_zh $s.position_en }}
+<div class="member">
+  {{ with $s.photo }}<img src="{{ . | relURL }}" alt="{{ $name }}" class="member-photo">{{ else }}<div class="member-photo placeholder">{{ substr $name 0 1 }}</div>{{ end }}
+  <div class="member-body">
+    <div class="member-name">{{ $name }}{{ with $s.start_year }}<span class="member-tag">{{ i18n "since" }} {{ . }}</span>{{ end }}{{ with $s.grad_year }}<span class="member-tag">{{ i18n "graduated" }} {{ . }}</span>{{ end }}</div>
+    {{ with $research }}<div class="member-line"><span class="lbl">{{ i18n "research_label" }}:</span> {{ . }}</div>{{ end }}
+    {{ with $thesis }}<div class="member-line"><span class="lbl">{{ i18n "thesis_label" }}:</span> {{ . }}</div>{{ end }}
+    {{ with $position }}<div class="member-line"><span class="lbl">{{ i18n "now_label" }}:</span> {{ . }}</div>{{ end }}
+    {{ with $s.links }}
+    <div class="member-links">
+      {{ with .homepage }}<a href="{{ . }}" target="_blank" rel="noopener">{{ i18n "homepage" }}</a>{{ end }}
+      {{ with .email }}<a href="mailto:{{ . }}">{{ i18n "email_label" }}</a>{{ end }}
+      {{ with .scholar }}<a href="{{ . }}" target="_blank" rel="noopener">Scholar</a>{{ end }}
+    </div>
+    {{ end }}
+    {{ with $s.publications }}
+    <details class="member-pubs">
+      <summary>{{ i18n "publications_label" }} ({{ len . }})</summary>
+      <ul>{{ range . }}<li>{{ . | safeHTML }}</li>{{ end }}</ul>
+    </details>
+    {{ end }}
+  </div>
+</div>

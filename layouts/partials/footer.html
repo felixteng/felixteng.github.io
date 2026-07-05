@@ -1,0 +1,9 @@
+<footer class="site-footer">
+  <div class="container">
+    <p>© {{ now.Year }} {{ .Site.Params.author }} · {{ .Site.Params.affiliation }}</p>
+    <p class="footer-links">
+      <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+      {{ with .Site.Params.scholar }} · <a href="{{ . }}" target="_blank" rel="noopener">Google Scholar</a>{{ end }}
+    </p>
+  </div>
+</footer>

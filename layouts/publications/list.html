@@ -1,0 +1,42 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+<div class="pub-filter">
+  <button class="pf active" data-filter="all">{{ i18n "all" }}</button>
+  <button class="pf" data-filter="journal">{{ i18n "type_journal" }}</button>
+  <button class="pf" data-filter="conference">{{ i18n "type_conference" }}</button>
+  <button class="pf" data-filter="report">{{ i18n "type_report" }}</button>
+</div>
+<p class="pub-legend"><sup class="corr">✉</sup> {{ i18n "corresponding_author" }}</p>
+
+{{ $pubs := hugo.Data.publications }}
+{{ $years := slice }}
+{{ range $pubs }}{{ $years = $years | append (printf "%v" .year) }}{{ end }}
+{{ $years = $years | uniq | sort | collections.Reverse }}
+{{ range $years }}
+  {{ $y := . }}
+  <h2 class="pub-year">{{ $y }}</h2>
+  <ol class="pub-list">
+    {{ range where $pubs "year" (int $y) }}{{ partial "pub-item.html" (dict "pub" .) }}{{ end }}
+  </ol>
+{{ end }}
+
+<script>
+document.querySelectorAll('.pf').forEach(function (b) {
+  b.addEventListener('click', function () {
+    document.querySelectorAll('.pf').forEach(function (x) { x.classList.remove('active'); });
+    b.classList.add('active');
+    var f = b.dataset.filter;
+    document.querySelectorAll('.pub-item').forEach(function (it) {
+      it.style.display = (f === 'all' || it.dataset.type === f) ? '' : 'none';
+    });
+    document.querySelectorAll('.pub-year').forEach(function (h) {
+      var ol = h.nextElementSibling, shown = 0;
+      ol.querySelectorAll('.pub-item').forEach(function (it) { if (it.style.display !== 'none') shown++; });
+      h.style.display = shown ? '' : 'none';
+    });
+  });
+});
+</script>
+{{ end }}

@@ -1,0 +1,47 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-text">
+    <h1>{{ .Site.Title }}</h1>
+    <p class="role">{{ .Site.Params.role }}</p>
+    <p class="affiliation">{{ .Site.Params.affiliation }}</p>
+    <p class="tagline">{{ .Site.Params.tagline }}</p>
+    <p class="hero-links">
+      <a href="{{ "cv" | relLangURL }}">{{ i18n "cv" }}</a>
+      {{ with .Site.Params.scholar }}<a href="{{ . }}" target="_blank" rel="noopener">Google Scholar</a>{{ end }}
+      <a href="mailto:{{ .Site.Params.email }}">{{ i18n "email_label" }}</a>
+    </p>
+  </div>
+  {{ with .Site.Params.photo }}<img class="hero-photo" src="{{ . | relURL }}" alt="{{ $.Site.Params.author }}">{{ end }}
+</section>
+
+<section class="bio">
+  {{ .Content }}
+</section>
+
+{{ with where hugo.Data.publications "featured" true }}
+<section class="home-section">
+  <div class="section-head">
+    <h2>{{ i18n "selected_publications" }}</h2>
+    <a class="more" href="{{ "publications" | relLangURL }}">{{ i18n "view_all" }} →</a>
+  </div>
+  <ol class="pub-list">
+    {{ range . }}{{ partial "pub-item.html" (dict "pub" .) }}{{ end }}
+  </ol>
+</section>
+{{ end }}
+
+{{ $news := where site.RegularPages "Section" "news" }}
+{{ with $news }}
+<section class="home-section">
+  <div class="section-head">
+    <h2>{{ i18n "latest_news" }}</h2>
+    <a class="more" href="{{ "news" | relLangURL }}">{{ i18n "view_all" }} →</a>
+  </div>
+  <ul class="news-list">
+    {{ range first 4 (.ByDate.Reverse) }}
+      <li><time>{{ .Date.Format "2006-01-02" }}</time> <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
+{{ end }}
