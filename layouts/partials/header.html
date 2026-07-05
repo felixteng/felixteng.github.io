@@ -1,20 +1,32 @@
-<header class="site-header">
-  <div class="header-inner">
-    <a class="brand" href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
-    <nav class="main-nav">
-      {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} class="active"{{ end }}>{{ .Name }}</a>
-      {{ end }}
-    </nav>
-    <div class="lang-switch">
-      {{ range .Translations }}
-        <a href="{{ .RelPermalink }}" onclick="try{localStorage.setItem('preferred_lang','{{ .Language.Lang }}')}catch(e){}">{{ .Language.Label }}</a>
-      {{ else }}
-        {{/* No translation of this exact page — fall back to the other language's home */}}
-        {{ range .Site.Languages }}{{ if ne .Lang $.Site.Language.Lang }}
-          <a href="{{ (printf "/%s/" .Lang) | relURL }}" onclick="try{localStorage.setItem('preferred_lang','{{ .Lang }}')}catch(e){}">{{ .Label }}</a>
-        {{ end }}{{ end }}
-      {{ end }}
-    </div>
+<aside class="sidebar">
+  <div class="sidebar-card">
+    {{ with .Site.Params.photo }}
+      <img class="sidebar-photo" src="{{ . | relURL }}" alt="{{ $.Site.Params.author }}">
+    {{ end }}
+    <a class="sidebar-name" href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
+    <p class="sidebar-role">{{ .Site.Params.role }}</p>
+    <p class="sidebar-affil">{{ .Site.Params.affiliation }}</p>
   </div>
-</header>
+
+  <nav class="sidebar-nav">
+    {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} class="active"{{ end }}>{{ .Name }}</a>
+    {{ end }}
+  </nav>
+
+  <div class="sidebar-contact">
+    <a href="mailto:{{ .Site.Params.email }}" title="{{ i18n "email_label" }}" aria-label="Email">✉</a>
+    {{ with .Site.Params.scholar }}<a href="{{ . }}" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">ⓢ</a>{{ end }}
+    {{ with .Site.Params.phone }}<a href="tel:{{ . }}" title="{{ . }}" aria-label="Phone">☎</a>{{ end }}
+  </div>
+
+  <div class="sidebar-lang">
+    {{ range .Translations }}
+      <a href="{{ .RelPermalink }}" onclick="try{localStorage.setItem('preferred_lang','{{ .Language.Lang }}')}catch(e){}">{{ .Language.Label }}</a>
+    {{ else }}
+      {{ range .Site.Languages }}{{ if ne .Lang $.Site.Language.Lang }}
+        <a href="{{ (printf "/%s/" .Lang) | relURL }}" onclick="try{localStorage.setItem('preferred_lang','{{ .Lang }}')}catch(e){}">{{ .Label }}</a>
+      {{ end }}{{ end }}
+    {{ end }}
+  </div>
+</aside>

@@ -1,17 +1,13 @@
 {{ define "main" }}
-<section class="hero">
+<section class="hero" id="about">
   <div class="hero-text">
     <h1>{{ .Site.Title }}</h1>
-    <p class="role">{{ .Site.Params.role }}</p>
-    <p class="affiliation">{{ .Site.Params.affiliation }}</p>
     <p class="tagline">{{ .Site.Params.tagline }}</p>
     <p class="hero-links">
       <a href="{{ "cv" | relLangURL }}">{{ i18n "cv" }}</a>
-      {{ with .Site.Params.scholar }}<a href="{{ . }}" target="_blank" rel="noopener">Google Scholar</a>{{ end }}
       <a href="mailto:{{ .Site.Params.email }}">{{ i18n "email_label" }}</a>
     </p>
   </div>
-  {{ with .Site.Params.photo }}<img class="hero-photo" src="{{ . | relURL }}" alt="{{ $.Site.Params.author }}">{{ end }}
 </section>
 
 <section class="bio">
@@ -19,7 +15,7 @@
 </section>
 
 {{ with where hugo.Data.publications "featured" true }}
-<section class="home-section">
+<section class="home-section" id="publications">
   <div class="section-head">
     <h2>{{ i18n "selected_publications" }}</h2>
     <a class="more" href="{{ "publications" | relLangURL }}">{{ i18n "view_all" }} →</a>
@@ -32,7 +28,7 @@
 
 {{ $news := where site.RegularPages "Section" "news" }}
 {{ with $news }}
-<section class="home-section">
+<section class="home-section" id="news">
   <div class="section-head">
     <h2>{{ i18n "latest_news" }}</h2>
     <a class="more" href="{{ "news" | relLangURL }}">{{ i18n "view_all" }} →</a>
